@@ -49,6 +49,8 @@
 
 let card1=prompt("choose a number between 1-12 ")
 let card2=prompt(" Again choose a number between 1-12 ")
+card1=Number.parseInt(card1)
+card2=Number.parseInt(card2)
 let sumCards=card1+card2
 hasBlackJack=false
 
